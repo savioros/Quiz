@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Css/prova.css">
+    <title>Queep Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <div class="cabecalhoProva">
+                    <h2>QQ</h2>
+                    <div class="infoUsuario">
+                        <p id="nomeAluno"></p>
+                        <p id="intituicaoAluno"></p>
+                    </div>
+                </div>
+                <div class="aviso">
+                    <p>OBS: Ao escolher a opção desejada, você será redirecionado para a próxima questão automaticamente então tome cuidado e boa prova!</p>
+                </div>
+            </div>
+
+            <div class="questao">
+                <h3 id="numQuestao">Questão *</h3>
+                <h4 id="pergunta">
+                    Em uma rede local, cujas estações de trabalho usam o sistema operacional Windows XP e endereços IP fixos em suas configurações de conexão, um novo host foi instalado e, embora esteja normalmente conectado à rede, não consegue acesso à internet distribuída nessa rede.
+                    Considerando que todas as outras estações da rede estão acessando a internet sem dificuldades, um dos motivos que pode estar ocasionando esse problema no novo host é
+                </h4>
+                <div class="campoRespostas">
+                    <ol type="A" id="alternativa">
+                        <li id="a" value="1A" class="respostas" onclick="verificarAcerto()">A) a codificação incorreta do endereço de FTP para o domínio registrado na internet.</li>
+                        <li id="b" value="1B" class="respostas" onclick="verificarAcerto()">B) a falta de registro da assinatura digital do host nas opções da internet.</li>
+                        <li id="c" value="1C" class="respostas" onclick="verificarAcerto()">C) um erro no Gateway padrão, informado nas propriedades do Protocolo TCP/IP desse host.</li>
+                        <li id="d" value="1D" class="respostas" onclick="verificarAcerto()">D) um erro no cadastramento da conta ou da senha do próprio host.</li>
+                        <li id="e" value="1E" class="respostas" onclick="verificarAcerto()">E) um defeito na porta do switch onde a placa de rede desse host está conectada um defeito na porta do switch onde a placa de rede desse host está conectada.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Js/provas.js"></script>
+</body>
+</html>
